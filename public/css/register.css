@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .form-register{
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +46,7 @@
 }
 .file-user{
     background-color: transparent;
+    border: 1px solid red;
 }
 .buttom-register{
     width: 100%;
