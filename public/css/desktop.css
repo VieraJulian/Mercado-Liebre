@@ -1,0 +1,116 @@
+@media (min-width:769px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        padding: 20px 50px;
+    }
+    .header-section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .logo{
+        width: 260px;
+    }
+    .header-nav{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .nav-top{
+        justify-content: space-between;
+        width: 40%;
+    }
+    .nav-bottom{
+        justify-content: space-between;
+        width: 40%;
+    }
+    .section-main{
+        margin-bottom: 20px;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer section{
+        width: 33.3%
+    }
+    footer i:hover{
+        color: #666;
+    }
+    .copy-footer{
+        width: 100%;
+    }
+    h2{
+        display: block;
+    }
+    .nombre-producto{
+        opacity: 0%;
+        transition-duration: 300ms;
+    }
+    article{
+        width: 22.5%;
+        transition: all 300ms;
+        margin: 0;
+        cursor: pointer;
+    }
+    article:hover .nombre-producto{
+        opacity: 100%;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        /* transform: scale(1.1); */
+    }
+    .fa-truck{
+        transition: all 400ms;
+    }
+    .fa-truck:hover{
+        transform: rotate(-90deg);
+    }
+}
+@media (min-width: 1000px){
+    main{
+        max-width: 1000px;
+    }
+    .banner{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .logo{
+        width: 150px;
+        align-self: center;
+        padding-right: 0;
+    }
+    .header-p{
+        margin: 0;
+        padding: 0;
+        align-self: center;
+    }
+    .header-section{
+        max-width: 1000px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .header-nav{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        max-width: 1000px;
+    }
+    .nav-top{
+        width: 35%;
+        margin-top: 20px;
+    }
+    .nav-bottom{
+        width: 35%;
+        margin-top: 20px;
+    }
+    footer{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .footer-section{
+        background-color: #fff;
+    }
+}

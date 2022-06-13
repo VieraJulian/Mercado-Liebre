@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form-login{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+}
+.fieldset-login{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+}
+.fieldset-login label{
+    margin: 18px 0;
+    font-weight: 500;
+}
+.fieldset-login input{
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.input-text{
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    outline-color: #1259c3;
+}
+.fieldset-a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 15px 0 30px;
+}
+.fieldset-a a{
+    text-decoration: none;
+    color: #1259c3;;
+}
+.fieldset-a :visited{
+    color: rgb(67, 46, 181);
+}
+.buttom-login{
+    width: 100%;
+    justify-content: center;
+}
+.buttom-login button{
+    color: #fff;
+    background-color: #1259c3;
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.buttom-login button:hover{
+    background-color: #0022AA;
+}

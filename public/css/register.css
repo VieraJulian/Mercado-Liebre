@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form-register{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+}
+.fieldset-register{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+}
+.fieldset-register label{
+    margin: 18px 0;
+    font-weight: 500;
+    width: 100%;
+}
+.fieldset-register input{
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.input-text{
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    outline-color: #1259c3;
+}
+.input-radio{
+    align-self: center;
+    margin-right: 6px;
+}
+.fieldset-checkbox{
+    width: 100%;
+    margin: 5px 0;
+    align-items: center;
+}
+.input-checkbox{
+    margin: 0px 8px 0 0;
+}
+.file-user{
+    background-color: transparent;
+}
+.buttom-register{
+    width: 100%;
+    justify-content: center;
+}
+.buttom-register button{
+    color: #fff;
+    background-color: #1259c3;
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.buttom-register button:hover{
+    background-color: #0022AA;
+}

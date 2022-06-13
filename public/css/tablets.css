@@ -1,0 +1,73 @@
+@media (min-width: 361px){
+    .header-p{
+        margin: 12px 0;
+    }
+    .mano{
+        margin-right: 4px;
+    }
+    .header-nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-top{
+        display: flex;
+        margin: 10px 0;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .nav-bottom{
+        display: flex;
+        margin: 10px 0;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .icon-nav{
+        margin-left: 4px;
+    }
+    .burger-menu{
+        display: none;
+        /* width: 100%*/
+    }
+    .section-main{
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    article{
+        width: 45%;
+        box-shadow: 0px 0px 1px rgb(100, 100, 100);
+    }
+    .descripcion{
+       flex-wrap: wrap;
+       justify-content: flex-start;
+    }
+    .precio{
+        width: 100%;
+    }
+    .descuento{
+        width: 100%;
+    }
+    .nombre-producto{
+        display: flex;
+        margin-top: 15px;
+    }
+}
+@media (min-width:400px){
+    .header-nav{
+        max-width: 400px;
+        margin: auto;
+    }
+}
+@media (min-width:600px){
+    .header-nav{
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: none;
+    }
+    .form-login{
+        max-width: 600px;
+    }
+}
