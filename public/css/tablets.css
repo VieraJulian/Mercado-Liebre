@@ -54,6 +54,9 @@
         display: flex;
         margin-top: 15px;
     }
+    .file-user{
+        max-width: 305px;
+    }
 }
 @media (min-width:400px){
     .header-nav{

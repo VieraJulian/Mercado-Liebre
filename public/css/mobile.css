@@ -105,6 +105,7 @@ article{
     position: relative;
     justify-content: center;
     width: 100%;
+    align-items: baseline;
     
 }
 .camion{
