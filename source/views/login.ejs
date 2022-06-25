@@ -1,48 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/mobile.css">
-    <link rel="stylesheet" href="/css/tablets.css">
-    <link rel="stylesheet" href="/css/desktop.css">
-    <link rel="stylesheet" href="/css/login.css">
-    <title>Mercado Liebre</title>
-</head>
+<%- include("./include/head.ejs") %> 
 <body>
-    <header>
-        <section class="header-section">
-            <figure class="logo">
-                <img src="/assets/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
-            </figure>
-            <form action="/" method="get">
-                <fieldset>
-                    <input class="input-search" type="text" name="search" id="search" placeholder="Buscar productos, marcas y más">
-                    <button><i class="fa-solid fa-search lupa"></i></button>
-                </fieldset>
-            </form>
-            <p class="header-p"><i class="fa-solid fa-hand-holding-dollar mano"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-        </section>
-        <section class="header-nav">
-            <nav class="nav-top">
-                <a href="#">Ofertas</a>
-                <a href="#">Tiendas Oficiales</a>
-                <a href="#">Vender</a>
-                <a href="#">Ayuda</a>
-            </nav>
-            <nav class="nav-bottom">
-                <a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card icon-nav"></i></a>
-                <a href="/login">Ingresa<i class="fa-solid fa-right-to-bracket icon-nav"></i></a>
-                <a href="#">Mis Compras<i class="fa-solid fa-basket-shopping icon-nav"></i></a>
-            </nav>
-            <nav class="burger-menu">
-                <a href="#"><i class="fas fa-bars barras"></i></a>
-            </nav>
-        </section>
-    </header>
+    <%- include("./include/header.ejs") %> 
     <main>
         <form action="/" method="post" class="form-login">
             <fieldset class="fieldset-login">
